@@ -585,7 +585,7 @@ Experiment is explained on GitHub https://github.com/SmithBradleyC/jsPsych_Onlin
                 // redirect to sona on completion. Warning: give some final instruction to "press a key to end the experiment". It won't redirect unless they press a key. If they close the window before that then they won't be automatically granted credit.
                 //window.location.href = "https://umanitobapsych.sona-systems.com/webstudy_credit.aspx?experiment_id=XXXX&credit_token=11x11x111x1x1x1xx1x11111111xx11x&survey_code="+SONA_ID; // #SONA
                 // display data at end:
-                //jsPsych.data.displayData(); //Uncomment this and comment out the SONA redirect if instead of redirecting people to SONA you want to display the data to the browser window 
+                jsPsych.data.displayData(); //Uncomment this and comment out the SONA redirect if instead of redirecting people to SONA you want to display the data to the browser window 
             }
         });
     </script>
